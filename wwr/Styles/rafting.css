@@ -15,12 +15,14 @@
 }
 
 body {
-  
+
   color: var(--accent1-color);
   background-color: #f9f9f9;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   width: 840px;
   margin: 0 auto;
 }
@@ -49,15 +51,18 @@ nav a:hover {
   text-decoration: underline;
 }
 
-h1{
+h1 {
   color: var(--primary-color);
 }
 
- h2 {
+h2 {
   color: #055a05;
- }
+}
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
   margin: 16px;
   padding: 8px;
 }
