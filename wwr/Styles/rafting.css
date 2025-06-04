@@ -4,15 +4,14 @@
   --secondary-color: #f4a261;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
-  --heading-font: "Merriweather Sans", sans-serif;
-  --body-font: "Lato", sans-serif;
+  --heading-font: "Merriweather Sans", sans;
+  --body-font: "Lato", sans;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--body-font);
 }
 
 body {
