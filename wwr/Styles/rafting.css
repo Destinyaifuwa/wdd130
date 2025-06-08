@@ -12,7 +12,7 @@ header {
     color: var(--accent2-color);
 }
 
-/* Reset some default browser styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,7 +26,7 @@ body {
   color: #333;
 }
 
-/* HERO SECTION */
+
 .hero {
   position: relative;
   height: 100vh;
@@ -68,7 +68,7 @@ body {
   border: 2px solid #fff;
 }
 
-/* HISTORY SECTION */
+
 .history {
   padding: 3rem 2rem;
   text-align: center;
@@ -88,7 +88,7 @@ body {
   line-height: 1.7;
 }
 
-/* ADVENTURES SECTION */
+
 .adventures {
   padding: 3rem 2rem;
   background-color: #e8f4fa;
@@ -123,7 +123,7 @@ body {
   box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
-/* FOOTER STYLES (optional preview) */
+
 footer {
   background-color: var(--primary-color);
   color: #fff;
