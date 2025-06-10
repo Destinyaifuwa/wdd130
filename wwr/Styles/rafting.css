@@ -1,3 +1,4 @@
+/* My About Us Code Start from here*/
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
@@ -34,23 +35,26 @@ header {
 }
 
 .navbar {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 1rem;
+  background-color: #123D4C; /* match your theme color */
+  padding: 1rem;
 }
 
 .navbar a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: var(--heading-font);
-    padding: 1rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
 }
 
 .navbar a:hover {
-    color: black;
+  background-color: #0c2c38;
+  border-radius: 5px;
 }
+
 
 .hero {
   position: relative;
@@ -194,6 +198,7 @@ footer {
     width: 300px;
 }
 
+/* My Contact Us CSS code Start from here*/
 .contact-info, .employees, .contact-form {
   margin-bottom: 2rem;
 }
