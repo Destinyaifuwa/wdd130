@@ -194,3 +194,47 @@ footer {
     width: 300px;
 }
 
+.contact-info, .employees, .contact-form {
+  margin-bottom: 2rem;
+}
+
+figure {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea, select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+
+button {
+  padding: 0.75rem;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004c99;
+}
+
+a[href*="Contact-wireframe.png"] {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
+a[href*="Contact-wireframe.png"]:hover {
+  color: #e9c46a;
+}
