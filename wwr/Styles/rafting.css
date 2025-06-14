@@ -31,7 +31,7 @@ header {
 }
 
 .logo {
-    height: 200px;
+    height: 120px;
 
 }
 
@@ -40,15 +40,7 @@ header {
   justify-content: center;
   flex-wrap: wrap; /* allows wrapping on smaller screens */
   gap: 1rem;
-  background-color: #123D4C; /* match your theme color */
   padding: 1rem;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
 }
 
 .navbar a:hover {
@@ -199,7 +191,6 @@ footer {
     width: 300px;
 }
 
-/* My Contact Us CSS code Start from here*/
 .contact-info, .employees, .contact-form {
   margin-bottom: 2rem;
 }
@@ -243,4 +234,181 @@ a[href*="Contact-wireframe.png"] {
 
 a[href*="Contact-wireframe.png"]:hover {
   color: #e9c46a;
+}
+
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e3d59;
+  padding: 1rem 2rem;
+}
+
+header img {
+  height: 120px;
+}
+
+nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+}
+
+/* Newsletter */
+.newsletter-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.newsletter-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.newsletter-card input {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter-card button {
+  padding: 0.75rem;
+  background-color: #1e3d59;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter-card button:hover {
+  background-color: #163349;
+}
+
+/* CTA */
+.cta {
+  background-color: #d9edf7;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cta h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  background-color: #1e3d59;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #142a3e;
+}
+
+/* Grid Info */
+.grid-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.grid-item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3d59;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
