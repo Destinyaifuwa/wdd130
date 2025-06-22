@@ -5,7 +5,7 @@
   --accent2-color: #e9c46a;
   --heading-font: "Merriweather Sans", sans-serif;
   --body-font: "Lato", sans-serif;
-  
+
 }
 
 * {
@@ -531,4 +531,63 @@ footer .social-media img {
 
 footer a {
   color: #aad4ff;
+}
+
+@media (max-width: 768px) {
+  /* Make nav vertical */
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Stack rafting box content */
+  .rafting-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .rafting-image img {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .rafting-text {
+    padding-right: 0;
+    font-size: 1rem;
+  }
+
+  /* Adjust gallery grid to 1 or 2 columns */
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+
+  /* Stack features vertically */
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  /* Adjust form spacing */
+  form {
+    padding: 0 1rem;
+  }
+
+  iframe.map {
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Social media in footer centered */
+  .social-media {
+    position: static;
+    margin-top: 1rem;
+    justify-content: center;
+  }
 }
